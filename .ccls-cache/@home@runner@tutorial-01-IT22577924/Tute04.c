@@ -5,31 +5,6 @@ Implement the three functions minimum(), maximum() and multiply() below the main
 Do not change the code given in the main() function when you are implementing your solution.*/
 
 #include <stdio.h>
-int minimum(int a, int b){
-  int min;
-  if(a<b){
-    min=a;
-  }else
-    min=b;
-  
-  return min;
-}
-
-int maximum(int a, int b){
-  int max;
-  if(a<b){
-    max=b;
-  }else
-    max=a;
-
-  return max;
-}
-
-int multiply(int a, int b){
-  int multi;
-  multi=a*b;
-  return multi;
-}
 
 int main() {
    int no1, no2;
